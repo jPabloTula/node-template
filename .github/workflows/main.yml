@@ -20,6 +20,8 @@ jobs:
         with:
           node-version: 20.x
           cache: npm
+      - name: install dependecies
+        run: npm install
 
 
 
